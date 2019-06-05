@@ -2,7 +2,7 @@
 
 const express = require('express');
 const morgan = require('morgan');
-const routes = require('./routes').default;
+const routes = require('./routes');
 
 // Create the Express app.
 const app = express();
